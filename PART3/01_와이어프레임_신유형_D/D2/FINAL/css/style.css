@@ -1,0 +1,83 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "맑은 고딕";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+.hidden{
+    display: none;
+}
+/* LAYOUT */
+
+main{
+    display: flex;
+}
+main > *{
+    border:1px solid #000;
+}
+aside{
+    width: 200px;
+}
+.main-content{
+    flex:1;
+}
+
+/* ASIDE */
+aside > *{
+    border:1px solid #ccc;
+}
+aside header{
+    height: 100px;    
+}
+aside nav{
+    height: 400px;
+}
+/* SLIDES */
+.slide-wrapper{
+    display: flex;
+}
+.slide-wrapper > *{
+    border:1px solid #ccc;
+    height: 400px;
+}
+.slide-image{flex:1;}
+.slide-shortcut{
+    width: 230px;
+}
+/* News Gallery */
+
+.news-gallery{
+    display: flex;
+}
+.news-gallery > * {
+    border:1px solid #ccc;
+    height: 250px;
+    flex:1;
+}
+
+/* Footer */
+footer{
+    display: flex;
+}
+footer > *{
+    border:1px solid red;
+    height: 100px;
+}
+.footer-logo{
+    width: 200px;
+}
+.copyright{
+    flex:1;
+}
+.family-site{
+    width: 230px;
+}
